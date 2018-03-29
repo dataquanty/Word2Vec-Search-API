@@ -16,7 +16,7 @@ conda create --name myenv --file spec-file.txt
 
 Activate this environment. 
 
-Get the GUDID full delimited realease, extract it to `data/AccessGUDID_Delimited_Full_Release_yyyymmdd/` or any other location to specify in `params.json`.
+Get the GUDID delimited full release, extract it to `data/AccessGUDID_Delimited_Full_Release_yyyymmdd/` or any other location to specify in `params.json`.
 
 ```
 {
@@ -47,7 +47,7 @@ w2v_model.pickle
 
 Then run the flask API: 
 ```
-python wv_flask_app_run.py
+python w2v_flask_app_run.py
 ```
 
 That's it! 
