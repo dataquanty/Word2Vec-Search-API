@@ -1,0 +1,6 @@
+{
+	"gudidfile": "data/AccessGUDID_Delimited_Full_Release_20180102/device.txt",
+	"modelfile": "w2v_model.pickle",
+	"docmatrixfile": "doc_matrix.npy",
+	"textfile": "GUDID_device.txt"
+}
