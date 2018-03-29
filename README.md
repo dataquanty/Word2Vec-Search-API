@@ -15,6 +15,7 @@ conda create --name myenv --file spec-file.txt
 ```
 
 Activate this environment. 
+
 Get the GUDID full delimited realease, extract it to `data/AccessGUDID_Delimited_Full_Release_yyyymmdd/` or any other location to specify in `params.json`.
 
 ```
@@ -36,7 +37,7 @@ First run model training on the data.
 python w2v_modelbuild.py
 ```
 
-which will create the following files (file names and locations can be reset in `params.json`: 
+which will create the following files (file names and locations can be reset in `params.json`): 
 
 ```
 GUDID_device.txt
